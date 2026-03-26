@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS generated files
+Thumbs.db
