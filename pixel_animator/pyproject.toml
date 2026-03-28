@@ -1,0 +1,16 @@
+[project]
+name = "pixel-animator"
+version = "0.1.0"
+description = "Pixel art animation generator using AI"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "openai>=1.0.0",
+    "pillow>=10.0.0",
+    "numpy>=1.24.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+pixel-animate = "pixel_animator:main"

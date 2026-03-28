@@ -2,28 +2,96 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+Thumbs.db
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
+*.sublime-*
 
 # Dependencies
 node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
 
-# Environment
+# Environment files (IMPORTANT: Contains API keys)
 .env
 .env.local
 .env.*.local
+pixel_animator/.env
+server/.env
 
-# Build
+# Database files (may contain user data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Build outputs
 dist/
 build/
+*.egg-info/
+.eggs/
+*.egg
 
 # Logs
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
 
-# OS generated files
-Thumbs.db
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Static files (generated avatars)
+server/static/avatars/
+!server/static/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# OS generated
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Generated images
+scripts/*.png
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ruff
+.ruff_cache/
